@@ -1,1 +1,1433 @@
+GF1:
+  PMS1:
+    MS1:
+      '2013':
+        Gain: 0.2082
+        Offset: 4.6186
+      '2014':
+        Gain: 0.2247
+        Offset: 0.0
+      '2015':
+        Gain: 0.211
+        Offset: 0.0
+      '2016':
+        Gain: 0.1886
+        Offset: 0.0
+      '2017':
+        Gain: 0.1424
+        Offset: 0.0
+      '2018':
+        Gain: 0.153
+        Offset: 0.0
+      '2019':
+        Gain: 0.149
+        Offset: 0.0
+      '2020':
+        Gain: 0.149
+        Offset: 0.0
+      '2021':
+        Gain: 0.149
+        Offset: 0.0
+      '2022':
+        Gain: 0.1458
+        Offset: 0.0
+      '2023':
+        Gain: 0.1309
+        Offset: 0.0
+    MS2:
+      '2013':
+        Gain: 0.1672
+        Offset: 4.8768
+      '2014':
+        Gain: 0.1892
+        Offset: 0.0
+      '2015':
+        Gain: 0.1802
+        Offset: 0.0
+      '2016':
+        Gain: 0.187
+        Offset: 0.0
+      '2017':
+        Gain: 0.1177
+        Offset: 0.0
+      '2018':
+        Gain: 0.1356
+        Offset: 0.0
+      '2019':
+        Gain: 0.1328
+        Offset: 0.0
+      '2020':
+        Gain: 0.1328
+        Offset: 0.0
+      '2021':
+        Gain: 0.1328
+        Offset: 0.0
+      '2022':
+        Gain: 0.1213
+        Offset: 0.0
+      '2023':
+        Gain: 0.1178
+        Offset: 0.0
+    MS3:
+      '2013':
+        Gain: 0.1748
+        Offset: 4.8924
+      '2014':
+        Gain: 0.1889
+        Offset: 0.0
+      '2015':
+        Gain: 0.1806
+        Offset: 0.0
+      '2016':
+        Gain: 0.1795
+        Offset: 0.0
+      '2017':
+        Gain: 0.1194
+        Offset: 0.0
+      '2018':
+        Gain: 0.1366
+        Offset: 0.0
+      '2019':
+        Gain: 0.1311
+        Offset: 0.0
+      '2020':
+        Gain: 0.1311
+        Offset: 0.0
+      '2021':
+        Gain: 0.1311
+        Offset: 0.0
+      '2022':
+        Gain: 0.123
+        Offset: 0.0
+      '2023':
+        Gain: 0.1197
+        Offset: 0.0
+    MS4:
+      '2013':
+        Gain: 0.1883
+        Offset: -9.4771
+      '2014':
+        Gain: 0.1939
+        Offset: 0.0
+      '2015':
+        Gain: 0.187
+        Offset: 0.0
+      '2016':
+        Gain: 0.196
+        Offset: 0.0
+      '2017':
+        Gain: 0.1135
+        Offset: 0.0
+      '2018':
+        Gain: 0.1272
+        Offset: 0.0
+      '2019':
+        Gain: 0.1217
+        Offset: 0.0
+      '2020':
+        Gain: 0.1217
+        Offset: 0.0
+      '2021':
+        Gain: 0.1217
+        Offset: 0.0
+      '2022':
+        Gain: 0.1185
+        Offset: 0.0
+      '2023':
+        Gain: 0.1109
+        Offset: 0.0
+    PAN:
+      '2013':
+        Gain: 0.1886
+        Offset: -13.127
+      '2014':
+        Gain: 0.1963
+        Offset: 0.0
+      '2015':
+        Gain: 0.1956
+        Offset: 0.0
+      '2016':
+        Gain: 0.1982
+        Offset: 0.0
+      '2017':
+        Gain: 0.1228
+        Offset: 0.0
+      '2018':
+        Gain: 0.1428
+        Offset: 0.0
+      '2019':
+        Gain: 0.1381
+        Offset: 0.0
+      '2020':
+        Gain: 0.1381
+        Offset: 0.0
+      '2021':
+        Gain: 0.1381
+        Offset: 0.0
+      '2022':
+        Gain: 0.1306
+        Offset: 0.0
+      '2023':
+        Gain: 0.1221
+        Offset: 0.0
+  PMS2:
+    MS1:
+      '2013':
+        Gain: 0.2072
+        Offset: 7.5348
+      '2014':
+        Gain: 0.2419
+        Offset: 0.0
+      '2015':
+        Gain: 0.2242
+        Offset: 0.0
+      '2016':
+        Gain: 0.224
+        Offset: 0.0
+      '2017':
+        Gain: 0.146
+        Offset: 0.0
+      '2018':
+        Gain: 0.1523
+        Offset: 0.0
+      '2019':
+        Gain: 0.1523
+        Offset: 0.0
+      '2020':
+        Gain: 0.1523
+        Offset: 0.0
+      '2021':
+        Gain: 0.1541
+        Offset: 0.0
+      '2022':
+        Gain: 0.1426
+        Offset: 0.0
+      '2023':
+        Gain: 0.1426
+        Offset: 0.0
+    MS2:
+      '2013':
+        Gain: 0.1776
+        Offset: 3.9395
+      '2014':
+        Gain: 0.2047
+        Offset: 0.0
+      '2015':
+        Gain: 0.1887
+        Offset: 0.0
+      '2016':
+        Gain: 0.1851
+        Offset: 0.0
+      '2017':
+        Gain: 0.1248
+        Offset: 0.0
+      '2018':
+        Gain: 0.1382
+        Offset: 0.0
+      '2019':
+        Gain: 0.1382
+        Offset: 0.0
+      '2020':
+        Gain: 0.1382
+        Offset: 0.0
+      '2021':
+        Gain: 0.1394
+        Offset: 0.0
+      '2022':
+        Gain: 0.1241
+        Offset: 0.0
+      '2023':
+        Gain: 0.1241
+        Offset: 0.0
+    MS3:
+      '2013':
+        Gain: 0.177
+        Offset: -1.7445
+      '2014':
+        Gain: 0.2009
+        Offset: 0.0
+      '2015':
+        Gain: 0.1882
+        Offset: 0.0
+      '2016':
+        Gain: 0.1793
+        Offset: 0.0
+      '2017':
+        Gain: 0.1274
+        Offset: 0.0
+      '2018':
+        Gain: 0.1403
+        Offset: 0.0
+      '2019':
+        Gain: 0.1403
+        Offset: 0.0
+      '2020':
+        Gain: 0.1403
+        Offset: 0.0
+      '2021':
+        Gain: 0.1407
+        Offset: 0.0
+      '2022':
+        Gain: 0.1286
+        Offset: 0.0
+      '2023':
+        Gain: 0.1286
+        Offset: 0.0
+    MS4:
+      '2013':
+        Gain: 0.1909
+        Offset: -7.2053
+      '2014':
+        Gain: 0.2058
+        Offset: 0.0
+      '2015':
+        Gain: 0.1963
+        Offset: 0.0
+      '2016':
+        Gain: 0.1863
+        Offset: 0.0
+      '2017':
+        Gain: 0.1255
+        Offset: 0.0
+      '2018':
+        Gain: 0.1334
+        Offset: 0.0
+      '2019':
+        Gain: 0.1334
+        Offset: 0.0
+      '2020':
+        Gain: 0.1334
+        Offset: 0.0
+      '2021':
+        Gain: 0.1308
+        Offset: 0.0
+      '2022':
+        Gain: 0.1247
+        Offset: 0.0
+      '2023':
+        Gain: 0.1247
+        Offset: 0.0
+    PAN:
+      '2013':
+        Gain: 0.1878
+        Offset: -7.9731
+      '2014':
+        Gain: 0.2147
+        Offset: 0.0
+      '2015':
+        Gain: 0.2018
+        Offset: 0.0
+      '2016':
+        Gain: 0.1979
+        Offset: 0.0
+      '2017':
+        Gain: 0.1365
+        Offset: 0.0
+      '2018':
+        Gain: 0.149
+        Offset: 0.0
+      '2019':
+        Gain: 0.149
+        Offset: 0.0
+      '2020':
+        Gain: 0.149
+        Offset: 0.0
+      '2021':
+        Gain: 0.1481
+        Offset: 0.0
+      '2022':
+        Gain: 0.1373
+        Offset: 0.0
+      '2023':
+        Gain: 0.1373
+        Offset: 0.0
+  WFV1:
+    Blue:
+      '2013':
+        Gain: 0.308
+        Offset: -84.3
+      '2014':
+        Gain: 0.2004
+        Offset: 0.0
+      '2015':
+        Gain: 0.1816
+        Offset: 0.0
+      '2016':
+        Gain: 0.1843
+        Offset: 0.0
+      '2017':
+        Gain: 0.2165
+        Offset: 0.0
+      '2018':
+        Gain: 0.1824
+        Offset: 0.0
+      '2019':
+        Gain: 0.1961
+        Offset: 0.0
+      '2020':
+        Gain: 0.1939
+        Offset: 0.0
+      '2021':
+        Gain: 0.1917
+        Offset: 0.0
+      '2022':
+        Gain: 0.1889
+        Offset: 0.0
+      '2023':
+        Gain: 0.1861
+        Offset: 0.0
+    Green:
+      '2013':
+        Gain: 0.241
+        Offset: -68.12
+      '2014':
+        Gain: 0.1648
+        Offset: 0.0
+      '2015':
+        Gain: 0.156
+        Offset: 0.0
+      '2016':
+        Gain: 0.1477
+        Offset: 0.0
+      '2017':
+        Gain: 0.1685
+        Offset: 0.0
+      '2018':
+        Gain: 0.1546
+        Offset: 0.0
+      '2019':
+        Gain: 0.1621
+        Offset: 0.0
+      '2020':
+        Gain: 0.1596
+        Offset: 0.0
+      '2021':
+        Gain: 0.157
+        Offset: 0.0
+      '2022':
+        Gain: 0.1495
+        Offset: 0.0
+      '2023':
+        Gain: 0.1454
+        Offset: 0.0
+    NIR:
+      '2013':
+        Gain: 0.229
+        Offset: -45.19
+      '2014':
+        Gain: 0.1563
+        Offset: 0.0
+      '2015':
+        Gain: 0.1368
+        Offset: 0.0
+      '2016':
+        Gain: 0.1365
+        Offset: 0.0
+      '2017':
+        Gain: 0.1507
+        Offset: 0.0
+      '2018':
+        Gain: 0.1344
+        Offset: 0.0
+      '2019':
+        Gain: 0.1488
+        Offset: 0.0
+      '2020':
+        Gain: 0.1463
+        Offset: 0.0
+      '2021':
+        Gain: 0.1437
+        Offset: 0.0
+      '2022':
+        Gain: 0.1352
+        Offset: 0.0
+      '2023':
+        Gain: 0.1255
+        Offset: 0.0
+    Red:
+      '2013':
+        Gain: 0.181
+        Offset: -46.39
+      '2014':
+        Gain: 0.1243
+        Offset: 0.0
+      '2015':
+        Gain: 0.1412
+        Offset: 0.0
+      '2016':
+        Gain: 0.122
+        Offset: 0.0
+      '2017':
+        Gain: 0.1354
+        Offset: 0.0
+      '2018':
+        Gain: 0.127
+        Offset: 0.0
+      '2019':
+        Gain: 0.1359
+        Offset: 0.0
+      '2020':
+        Gain: 0.1337
+        Offset: 0.0
+      '2021':
+        Gain: 0.1315
+        Offset: 0.0
+      '2022':
+        Gain: 0.1228
+        Offset: 0.0
+      '2023':
+        Gain: 0.1159
+        Offset: 0.0
+  WFV2:
+    Blue:
+      '2013':
+        Gain: 0.1588
+        Offset: 5.5303
+      '2014':
+        Gain: 0.1733
+        Offset: 0.0
+      '2015':
+        Gain: 0.1684
+        Offset: 0.0
+      '2016':
+        Gain: 0.1929
+        Offset: 0.0
+      '2017':
+        Gain: 0.2097
+        Offset: 0.0
+      '2018':
+        Gain: 0.1851
+        Offset: 0.0
+      '2019':
+        Gain: 0.1975
+        Offset: 0.0
+      '2020':
+        Gain: 0.1902
+        Offset: 0.0
+      '2021':
+        Gain: 0.1829
+        Offset: 0.0
+      '2022':
+        Gain: 0.1585
+        Offset: 0.0
+      '2023':
+        Gain: 0.1809
+        Offset: 0.0
+    Green:
+      '2013':
+        Gain: 0.1515
+        Offset: -13.642
+      '2014':
+        Gain: 0.1383
+        Offset: 0.0
+      '2015':
+        Gain: 0.1527
+        Offset: 0.0
+      '2016':
+        Gain: 0.154
+        Offset: 0.0
+      '2017':
+        Gain: 0.163
+        Offset: 0.0
+      '2018':
+        Gain: 0.1538
+        Offset: 0.0
+      '2019':
+        Gain: 0.1569
+        Offset: 0.0
+      '2020':
+        Gain: 0.1532
+        Offset: 0.0
+      '2021':
+        Gain: 0.1496
+        Offset: 0.0
+      '2022':
+        Gain: 0.1223
+        Offset: 0.0
+      '2023':
+        Gain: 0.1516
+        Offset: 0.0
+    NIR:
+      '2013':
+        Gain: 0.1209
+        Offset: -7.985
+      '2014':
+        Gain: 0.1391
+        Offset: 0.0
+      '2015':
+        Gain: 0.1263
+        Offset: 0.0
+      '2016':
+        Gain: 0.1359
+        Offset: 0.0
+      '2017':
+        Gain: 0.1521
+        Offset: 0.0
+      '2018':
+        Gain: 0.1314
+        Offset: 0.0
+      '2019':
+        Gain: 0.1399
+        Offset: 0.0
+      '2020':
+        Gain: 0.1388
+        Offset: 0.0
+      '2021':
+        Gain: 0.1377
+        Offset: 0.0
+      '2022':
+        Gain: 0.1111
+        Offset: 0.0
+      '2023':
+        Gain: 0.1311
+        Offset: 0.0
+    Red:
+      '2013':
+        Gain: 0.1251
+        Offset: -15.382
+      '2014':
+        Gain: 0.1122
+        Offset: 0.0
+      '2015':
+        Gain: 0.1373
+        Offset: 0.0
+      '2016':
+        Gain: 0.1349
+        Offset: 0.0
+      '2017':
+        Gain: 0.1339
+        Offset: 0.0
+      '2018':
+        Gain: 0.1231
+        Offset: 0.0
+      '2019':
+        Gain: 0.1253
+        Offset: 0.0
+      '2020':
+        Gain: 0.1246
+        Offset: 0.0
+      '2021':
+        Gain: 0.1239
+        Offset: 0.0
+      '2022':
+        Gain: 0.0997
+        Offset: 0.0
+      '2023':
+        Gain: 0.122
+        Offset: 0.0
+  WFV3:
+    Blue:
+      '2013':
+        Gain: 0.1556
+        Offset: 12.28
+      '2014':
+        Gain: 0.1745
+        Offset: 0.0
+      '2015':
+        Gain: 0.177
+        Offset: 0.0
+      '2016':
+        Gain: 0.1753
+        Offset: 0.0
+      '2017':
+        Gain: 0.187
+        Offset: 0.0
+      '2018':
+        Gain: 0.1894
+        Offset: 0.0
+      '2019':
+        Gain: 0.1732
+        Offset: 0.0
+      '2020':
+        Gain: 0.1769
+        Offset: 0.0
+      '2021':
+        Gain: 0.1805
+        Offset: 0.0
+      '2022':
+        Gain: 0.2085
+        Offset: 0.0
+      '2023':
+        Gain: 0.1896
+        Offset: 0.0
+    Green:
+      '2013':
+        Gain: 0.17
+        Offset: -7.9336
+      '2014':
+        Gain: 0.1514
+        Offset: 0.0
+      '2015':
+        Gain: 0.1589
+        Offset: 0.0
+      '2016':
+        Gain: 0.1565
+        Offset: 0.0
+      '2017':
+        Gain: 0.1619
+        Offset: 0.0
+      '2018':
+        Gain: 0.1728
+        Offset: 0.0
+      '2019':
+        Gain: 0.1557
+        Offset: 0.0
+      '2020':
+        Gain: 0.1594
+        Offset: 0.0
+      '2021':
+        Gain: 0.163
+        Offset: 0.0
+      '2022':
+        Gain: 0.1743
+        Offset: 0.0
+      '2023':
+        Gain: 0.1743
+        Offset: 0.0
+    NIR:
+      '2013':
+        Gain: 0.1354
+        Offset: -4.3578
+      '2014':
+        Gain: 0.1462
+        Offset: 0.0
+      '2015':
+        Gain: 0.1344
+        Offset: 0.0
+      '2016':
+        Gain: 0.1322
+        Offset: 0.0
+      '2017':
+        Gain: 0.1383
+        Offset: 0.0
+      '2018':
+        Gain: 0.1373
+        Offset: 0.0
+      '2019':
+        Gain: 0.1279
+        Offset: 0.0
+      '2020':
+        Gain: 0.1316
+        Offset: 0.0
+      '2021':
+        Gain: 0.1352
+        Offset: 0.0
+      '2022':
+        Gain: 0.1438
+        Offset: 0.0
+      '2023':
+        Gain: 0.1403
+        Offset: 0.0
+    Red:
+      '2013':
+        Gain: 0.1392
+        Offset: -7.031
+      '2014':
+        Gain: 0.1257
+        Offset: 0.0
+      '2015':
+        Gain: 0.1385
+        Offset: 0.0
+      '2016':
+        Gain: 0.148
+        Offset: 0.0
+      '2017':
+        Gain: 0.1295
+        Offset: 0.0
+      '2018':
+        Gain: 0.1343
+        Offset: 0.0
+      '2019':
+        Gain: 0.1217
+        Offset: 0.0
+      '2020':
+        Gain: 0.1254
+        Offset: 0.0
+      '2021':
+        Gain: 0.129
+        Offset: 0.0
+      '2022':
+        Gain: 0.1385
+        Offset: 0.0
+      '2023':
+        Gain: 0.1365
+        Offset: 0.0
+  WFV4:
+    Blue:
+      '2013':
+        Gain: 0.1819
+        Offset: 3.6469
+      '2014':
+        Gain: 0.1172
+        Offset: 0.0
+      '2015':
+        Gain: 0.1886
+        Offset: 0.0
+      '2016':
+        Gain: 0.1973
+        Offset: 0.0
+      '2017':
+        Gain: 0.177
+        Offset: 0.0
+      '2018':
+        Gain: 0.1866
+        Offset: 0.0
+      '2019':
+        Gain: 0.1967
+        Offset: 0.0
+      '2020':
+        Gain: 0.204
+        Offset: 0.0
+      '2021':
+        Gain: 0.2113
+        Offset: 0.0
+      '2022':
+        Gain: 0.2148
+        Offset: 0.0
+      '2023':
+        Gain: 0.1942
+        Offset: 0.0
+    Green:
+      '2013':
+        Gain: 0.1762
+        Offset: -13.54
+      '2014':
+        Gain: 0.16
+        Offset: 0.0
+      '2015':
+        Gain: 0.1645
+        Offset: 0.0
+      '2016':
+        Gain: 0.1714
+        Offset: 0.0
+      '2017':
+        Gain: 0.1521
+        Offset: 0.0
+      '2018':
+        Gain: 0.1599
+        Offset: 0.0
+      '2019':
+        Gain: 0.1539
+        Offset: 0.0
+      '2020':
+        Gain: 0.1576
+        Offset: 0.0
+      '2021':
+        Gain: 0.1612
+        Offset: 0.0
+      '2022':
+        Gain: 0.1607
+        Offset: 0.0
+      '2023':
+        Gain: 0.1717
+        Offset: 0.0
+    NIR:
+      '2013':
+        Gain: 0.1522
+        Offset: -12.142
+      '2014':
+        Gain: 0.1435
+        Offset: 0.0
+      '2015':
+        Gain: 0.1378
+        Offset: 0.0
+      '2016':
+        Gain: 0.1572
+        Offset: 0.0
+      '2017':
+        Gain: 0.1349
+        Offset: 0.0
+      '2018':
+        Gain: 0.1251
+        Offset: 0.0
+      '2019':
+        Gain: 0.1356
+        Offset: 0.0
+      '2020':
+        Gain: 0.1389
+        Offset: 0.0
+      '2021':
+        Gain: 0.1422
+        Offset: 0.0
+      '2022':
+        Gain: 0.1288
+        Offset: 0.0
+      '2023':
+        Gain: 0.1432
+        Offset: 0.0
+    Red:
+      '2013':
+        Gain: 0.1463
+        Offset: -10.998
+      '2014':
+        Gain: 0.1497
+        Offset: 0.0
+      '2015':
+        Gain: 0.1467
+        Offset: 0.0
+      '2016':
+        Gain: 0.15
+        Offset: 0.0
+      '2017':
+        Gain: 0.1322
+        Offset: 0.0
+      '2018':
+        Gain: 0.1307
+        Offset: 0.0
+      '2019':
+        Gain: 0.1353
+        Offset: 0.0
+      '2020':
+        Gain: 0.1383
+        Offset: 0.0
+      '2021':
+        Gain: 0.1412
+        Offset: 0.0
+      '2022':
+        Gain: 0.1317
+        Offset: 0.0
+      '2023':
+        Gain: 0.1439
+        Offset: 0.0
+GF1B:
+  PMS:
+    MS1:
+      '2018':
+        Gain: 0.0333
+        Offset: 0.0
+      '2019':
+        Gain: 0.0363
+        Offset: 0.0
+      '2020':
+        Gain: 0.0757
+        Offset: 0.0
+      '2021':
+        Gain: 0.073
+        Offset: 0.0
+      '2022':
+        Gain: 0.0623
+        Offset: 0.0
+      '2023':
+        Gain: 0.0651
+        Offset: 0.0
+    MS2:
+      '2018':
+        Gain: 0.0414
+        Offset: 0.0
+      '2019':
+        Gain: 0.0352
+        Offset: 0.0
+      '2020':
+        Gain: 0.0618
+        Offset: 0.0
+      '2021':
+        Gain: 0.0619
+        Offset: 0.0
+      '2022':
+        Gain: 0.0495
+        Offset: 0.0
+      '2023':
+        Gain: 0.0547
+        Offset: 0.0
+    MS3:
+      '2018':
+        Gain: 0.0474
+        Offset: 0.0
+      '2019':
+        Gain: 0.0363
+        Offset: 0.0
+      '2020':
+        Gain: 0.0545
+        Offset: 0.0
+      '2021':
+        Gain: 0.0562
+        Offset: 0.0
+      '2022':
+        Gain: 0.0454
+        Offset: 0.0
+      '2023':
+        Gain: 0.0505
+        Offset: 0.0
+    MS4:
+      '2018':
+        Gain: 0.0435
+        Offset: 0.0
+      '2019':
+        Gain: 0.0393
+        Offset: 0.0
+      '2020':
+        Gain: 0.0572
+        Offset: 0.0
+      '2021':
+        Gain: 0.0594
+        Offset: 0.0
+      '2022':
+        Gain: 0.0529
+        Offset: 0.0
+      '2023':
+        Gain: 0.0452
+        Offset: 0.0
+    PAN:
+      '2018':
+        Gain: 0.0399
+        Offset: 0.0
+      '2019':
+        Gain: 0.0399
+        Offset: 0.0
+      '2020':
+        Gain: 0.0687
+        Offset: 0.0
+      '2021':
+        Gain: 0.0713
+        Offset: 0.0
+      '2022':
+        Gain: 0.059
+        Offset: 0.0
+      '2023':
+        Gain: 0.0619
+        Offset: 0.0
+GF1C:
+  PMS:
+    MS1:
+      '2018':
+        Gain: 0.0301
+        Offset: 0.0
+      '2019':
+        Gain: 0.0389
+        Offset: 0.0
+      '2020':
+        Gain: 0.0758
+        Offset: 0.0
+      '2021':
+        Gain: 0.0648
+        Offset: 0.0
+      '2022':
+        Gain: 0.0675
+        Offset: 0.0
+      '2023':
+        Gain: 0.0701
+        Offset: 0.0
+    MS2:
+      '2018':
+        Gain: 0.0392
+        Offset: 0.0
+      '2019':
+        Gain: 0.0387
+        Offset: 0.0
+      '2020':
+        Gain: 0.0657
+        Offset: 0.0
+      '2021':
+        Gain: 0.0599
+        Offset: 0.0
+      '2022':
+        Gain: 0.0551
+        Offset: 0.0
+      '2023':
+        Gain: 0.0626
+        Offset: 0.0
+    MS3:
+      '2018':
+        Gain: 0.0436
+        Offset: 0.0
+      '2019':
+        Gain: 0.0441
+        Offset: 0.0
+      '2020':
+        Gain: 0.0543
+        Offset: 0.0
+      '2021':
+        Gain: 0.0532
+        Offset: 0.0
+      '2022':
+        Gain: 0.0495
+        Offset: 0.0
+      '2023':
+        Gain: 0.0603
+        Offset: 0.0
+    MS4:
+      '2018':
+        Gain: 0.0379
+        Offset: 0.0
+      '2019':
+        Gain: 0.0402
+        Offset: 0.0
+      '2020':
+        Gain: 0.0564
+        Offset: 0.0
+      '2021':
+        Gain: 0.0566
+        Offset: 0.0
+      '2022':
+        Gain: 0.0557
+        Offset: 0.0
+      '2023':
+        Gain: 0.0489
+        Offset: 0.0
+    PAN:
+      '2018':
+        Gain: 0.0401
+        Offset: 0.0
+      '2019':
+        Gain: 0.0417
+        Offset: 0.0
+      '2020':
+        Gain: 0.0709
+        Offset: 0.0
+      '2021':
+        Gain: 0.0681
+        Offset: 0.0
+      '2022':
+        Gain: 0.0634
+        Offset: 0.0
+      '2023':
+        Gain: 0.0691
+        Offset: 0.0
+GF1D:
+  PMS:
+    MS1:
+      '2018':
+        Gain: 0.0296
+        Offset: 0.0
+      '2019':
+        Gain: 0.0389
+        Offset: 0.0
+      '2020':
+        Gain: 0.0738
+        Offset: 0.0
+      '2021':
+        Gain: 0.0694
+        Offset: 0.0
+      '2022':
+        Gain: 0.0714
+        Offset: 0.0
+      '2023':
+        Gain: 0.0788
+        Offset: 0.0
+    MS2:
+      '2018':
+        Gain: 0.0388
+        Offset: 0.0
+      '2019':
+        Gain: 0.0364
+        Offset: 0.0
+      '2020':
+        Gain: 0.0656
+        Offset: 0.0
+      '2021':
+        Gain: 0.0624
+        Offset: 0.0
+      '2022':
+        Gain: 0.0568
+        Offset: 0.0
+      '2023':
+        Gain: 0.0643
+        Offset: 0.0
+    MS3:
+      '2018':
+        Gain: 0.0444
+        Offset: 0.0
+      '2019':
+        Gain: 0.0354
+        Offset: 0.0
+      '2020':
+        Gain: 0.059
+        Offset: 0.0
+      '2021':
+        Gain: 0.0573
+        Offset: 0.0
+      '2022':
+        Gain: 0.0518
+        Offset: 0.0
+      '2023':
+        Gain: 0.0609
+        Offset: 0.0
+    MS4:
+      '2018':
+        Gain: 0.039
+        Offset: 0.0
+      '2019':
+        Gain: 0.0386
+        Offset: 0.0
+      '2020':
+        Gain: 0.0585
+        Offset: 0.0
+      '2021':
+        Gain: 0.0571
+        Offset: 0.0
+      '2022':
+        Gain: 0.0584
+        Offset: 0.0
+      '2023':
+        Gain: 0.0553
+        Offset: 0.0
+    PAN:
+      '2018':
+        Gain: 0.0421
+        Offset: 0.0
+      '2019':
+        Gain: 0.0431
+        Offset: 0.0
+      '2020':
+        Gain: 0.0715
+        Offset: 0.0
+      '2021':
+        Gain: 0.0702
+        Offset: 0.0
+      '2022':
+        Gain: 0.0669
+        Offset: 0.0
+      '2023':
+        Gain: 0.075
+        Offset: 0.0
+GF6:
+  PMS:
+    MS1:
+      '2018':
+        Gain: 0.0825
+        Offset: 0.0
+      '2019':
+        Gain: 0.0847
+        Offset: 0.0
+      '2020':
+        Gain: 0.082
+        Offset: 0.0
+      '2021':
+        Gain: 0.0821
+        Offset: 0.0
+      '2022':
+        Gain: 0.0892
+        Offset: 0.0
+      '2023':
+        Gain: 0.0765
+        Offset: 0.0
+    MS2:
+      '2018':
+        Gain: 0.0663
+        Offset: 0.0
+      '2019':
+        Gain: 0.0653
+        Offset: 0.0
+      '2020':
+        Gain: 0.0645
+        Offset: 0.0
+      '2021':
+        Gain: 0.0671
+        Offset: 0.0
+      '2022':
+        Gain: 0.0666
+        Offset: 0.0
+      '2023':
+        Gain: 0.0606
+        Offset: 0.0
+    MS3:
+      '2018':
+        Gain: 0.0513
+        Offset: 0.0
+      '2019':
+        Gain: 0.0491
+        Offset: 0.0
+      '2020':
+        Gain: 0.0489
+        Offset: 0.0
+      '2021':
+        Gain: 0.0518
+        Offset: 0.0
+      '2022':
+        Gain: 0.0517
+        Offset: 0.0
+      '2023':
+        Gain: 0.0449
+        Offset: 0.0
+    MS4:
+      '2018':
+        Gain: 0.0298
+        Offset: 0.0
+      '2019':
+        Gain: 0.0289
+        Offset: 0.0
+      '2020':
+        Gain: 0.0286
+        Offset: 0.0
+      '2021':
+        Gain: 0.031
+        Offset: 0.0
+      '2022':
+        Gain: 0.032
+        Offset: 0.0
+      '2023':
+        Gain: 0.0263
+        Offset: 0.0
+    PAN:
+      '2018':
+        Gain: 0.0505
+        Offset: 0.0
+      '2019':
+        Gain: 0.0534
+        Offset: 0.0
+      '2020':
+        Gain: 0.0537
+        Offset: 0.0
+      '2021':
+        Gain: 0.0577
+        Offset: 0.0
+      '2022':
+        Gain: 0.0569
+        Offset: 0.0
+      '2023':
+        Gain: 0.0485
+        Offset: 0.0
+  WFV:
+    B1:
+      '2018':
+        Gain: 0.0667
+        Offset: 0.0
+      '2019':
+        Gain: 0.0705
+        Offset: 0.0
+      '2020':
+        Gain: 0.0675
+        Offset: 0.0
+      '2021':
+        Gain: 0.0633
+        Offset: 0.0
+      '2022':
+        Gain: 0.0631
+        Offset: 0.0
+      '2023':
+        Gain: 0.0603
+        Offset: 0.0
+    B2:
+      '2018':
+        Gain: 0.0517
+        Offset: 0.0
+      '2019':
+        Gain: 0.0567
+        Offset: 0.0
+      '2020':
+        Gain: 0.0552
+        Offset: 0.0
+      '2021':
+        Gain: 0.0532
+        Offset: 0.0
+      '2022':
+        Gain: 0.0469
+        Offset: 0.0
+      '2023':
+        Gain: 0.0485
+        Offset: 0.0
+    B3:
+      '2018':
+        Gain: 0.0485
+        Offset: 0.0
+      '2019':
+        Gain: 0.0516
+        Offset: 0.0
+      '2020':
+        Gain: 0.0513
+        Offset: 0.0
+      '2021':
+        Gain: 0.0508
+        Offset: 0.0
+      '2022':
+        Gain: 0.0443
+        Offset: 0.0
+      '2023':
+        Gain: 0.0456
+        Offset: 0.0
+    B4:
+      '2018':
+        Gain: 0.0298
+        Offset: 0.0
+      '2019':
+        Gain: 0.0322
+        Offset: 0.0
+      '2020':
+        Gain: 0.0314
+        Offset: 0.0
+      '2021':
+        Gain: 0.0325
+        Offset: 0.0
+      '2022':
+        Gain: 0.0297
+        Offset: 0.0
+      '2023':
+        Gain: 0.0298
+        Offset: 0.0
+    B5:
+      '2018':
+        Gain: 0.053
+        Offset: 0.0
+      '2019':
+        Gain: 0.0532
+        Offset: 0.0
+      '2020':
+        Gain: 0.0519
+        Offset: 0.0
+      '2021':
+        Gain: 0.0523
+        Offset: 0.0
+      '2022':
+        Gain: 0.0503
+        Offset: 0.0
+      '2023':
+        Gain: 0.05
+        Offset: 0.0
+    B6:
+      '2018':
+        Gain: 0.0445
+        Offset: 0.0
+      '2019':
+        Gain: 0.0453
+        Offset: 0.0
+      '2020':
+        Gain: 0.0454
+        Offset: 0.0
+      '2021':
+        Gain: 0.0463
+        Offset: 0.0
+      '2022':
+        Gain: 0.0439
+        Offset: 0.0
+      '2023':
+        Gain: 0.0441
+        Offset: 0.0
+    B7:
+      '2018':
+        Gain: 0.0814
+        Offset: 0.0
+      '2019':
+        Gain: 0.0786
+        Offset: 0.0
+      '2020':
+        Gain: 0.0718
+        Offset: 0.0
+      '2021':
+        Gain: 0.067
+        Offset: 0.0
+      '2022':
+        Gain: 0.0775
+        Offset: 0.0
+      '2023':
+        Gain: 0.0677
+        Offset: 0.0
+    B8:
+      '2018':
+        Gain: 0.0559
+        Offset: 0.0
+      '2019':
+        Gain: 0.0585
+        Offset: 0.0
+      '2020':
+        Gain: 0.0596
+        Offset: 0.0
+      '2021':
+        Gain: 0.0591
+        Offset: 0.0
+      '2022':
+        Gain: 0.0505
+        Offset: 0.0
+      '2023':
+        Gain: 0.0523
+        Offset: 0.0
 
