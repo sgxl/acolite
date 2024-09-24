@@ -11,6 +11,7 @@
 ##                2024-04-17 (QV) use new gem NetCDF handling
 
 def l1_convert(inputfile, output = None, settings = {}, verbosity=5):
+    import yaml
     import numpy as np
     from scipy.interpolate import interp2d
 
@@ -32,21 +33,25 @@ def l1_convert(inputfile, output = None, settings = {}, verbosity=5):
 
     ## from Mona Allam PDF
     ## 240A9946ECED64C3CB4D56B8A8764F35
-    dn_scaling = {}
-    dn_scaling['GF1'] = {}
-    dn_scaling['GF1']['WFV1'] = {'Blue':0.19319, 'Green': 0.16041, 'Red': 0.12796, 'NIR': 0.13405}
-    dn_scaling['GF1']['WFV2'] = {'Blue':0.2057, 'Green': 0.1648, 'Red': 0.1260, 'NIR': 0.1187}
-    dn_scaling['GF1']['WFV3'] = {'Blue':0.2106, 'Green': 0.1825, 'Red': 0.1346, 'NIR': 0.1187}
-    dn_scaling['GF1']['WFV4'] = {'Blue':0.2522, 'Green': 0.2029, 'Red': 0.1528, 'NIR': 0.1031}
+    # dn_scaling = {}
+    # dn_scaling['GF1'] = {}
+    # dn_scaling['GF1']['WFV1'] = {'Blue':0.19319, 'Green': 0.16041, 'Red': 0.12796, 'NIR': 0.13405}
+    # dn_scaling['GF1']['WFV2'] = {'Blue':0.2057, 'Green': 0.1648, 'Red': 0.1260, 'NIR': 0.1187}
+    # dn_scaling['GF1']['WFV3'] = {'Blue':0.2106, 'Green': 0.1825, 'Red': 0.1346, 'NIR': 0.1187}
+    # dn_scaling['GF1']['WFV4'] = {'Blue':0.2522, 'Green': 0.2029, 'Red': 0.1528, 'NIR': 0.1031}
 
-    dn_scaling['GF1B'] = {'PMS': {'PAN': 0.0687, 'MS1': 0.0757, 'MS2': 0.0618, 'MS3': 0.0545, 'MS4': 0.0572}}
-    dn_scaling['GF1C'] = {'PMS': {'PAN': 0.0709, 'MS1': 0.0758, 'MS2': 0.0657, 'MS3': 0.0543, 'MS4': 0.0564}}
-    dn_scaling['GF1D'] = {'PMS': {'PAN': 0.0715, 'MS1': 0.0738, 'MS2': 0.0656, 'MS3': 0.0590, 'MS4': 0.0585}}
+    # dn_scaling['GF1B'] = {'PMS': {'PAN': 0.0687, 'MS1': 0.0757, 'MS2': 0.0618, 'MS3': 0.0545, 'MS4': 0.0572}}
+    # dn_scaling['GF1C'] = {'PMS': {'PAN': 0.0709, 'MS1': 0.0758, 'MS2': 0.0657, 'MS3': 0.0543, 'MS4': 0.0564}}
+    # dn_scaling['GF1D'] = {'PMS': {'PAN': 0.0715, 'MS1': 0.0738, 'MS2': 0.0656, 'MS3': 0.0590, 'MS4': 0.0585}}
 
-    dn_scaling['GF6'] = {'WFV': {'B1': 0.0675, 'B2': 0.0552, 'B3': 0.0513, 'B4': 0.0314,
-                                 'B5': 0.0519, 'B6': 0.0454, 'B7': 0.0718, 'B8': 0.0596},
-                          'PMS': {'PAN': 0.0537, 'MS1': 0.082, 'MS2': 0.0645, 'MS3': 0.0489, 'MS4': 0.0286}}
+    # dn_scaling['GF6'] = {'WFV': {'B1': 0.0675, 'B2': 0.0552, 'B3': 0.0513, 'B4': 0.0314,
+    #                              'B5': 0.0519, 'B6': 0.0454, 'B7': 0.0718, 'B8': 0.0596},
+    #                       'PMS': {'PAN': 0.0537, 'MS1': 0.082, 'MS2': 0.0645, 'MS3': 0.0489, 'MS4': 0.0286}}
 
+    ifile_cali_coeff = ac.config['data_dir'] + '/GF/gf_cali_coeff.yaml'
+    with open(ifile_cali_coeff, 'r') as fp:
+        cali_coeff_dict = yaml.safe_load(fp)
+    
     ## bias should be 0 and not 0.2
     ## https://github.com/acolite/acolite/issues/53
     dn_bias = 0.0
@@ -223,7 +228,18 @@ def l1_convert(inputfile, output = None, settings = {}, verbosity=5):
             for bi, b in enumerate(bands_sorted):
                 if b == 'PAN': continue
                 print('Computing rhot_{} for {}'.format(bands[b]['wave_name'], gatts['obase']))
-                print(b, bi, dn_scaling[gatts['satellite']][gatts['sensor'].split('_')[1]][b])
+
+                # Use the calibration coefficients of the corresponding year, and the latest coefficients are from 2023.
+                year = dtime.strftime('%Y')
+                if int(year) > 2023:
+                    year = '2023'
+                sat = gatts['satellite']
+                sensor = gatts['sensor'].split('_')[1]
+                dn_scaling = cali_coeff_dict[sat][sensor][b][year]['Gain']
+                dn_offset = cali_coeff_dict[sat][sensor][b][year]['Offset']
+                
+                # print(b, bi, dn_scaling[gatts['satellite']][gatts['sensor'].split('_')[1]][b])
+                print(f'{b}, {bi}, {year}, dn_scaling={dn_scaling}, dn_offset={dn_offset}')
 
                 ## read data
                 if rpr_file is None:
@@ -233,8 +249,9 @@ def l1_convert(inputfile, output = None, settings = {}, verbosity=5):
                 data_shape = cdata_radiance.shape
 
                 ## compute radiance
-                cdata_radiance = cdata_radiance.astype(np.float32) * dn_scaling[gatts['satellite']][gatts['sensor'].split('_')[1]][b]
-                cdata_radiance += dn_bias
+                # cdata_radiance = cdata_radiance.astype(np.float32) * dn_scaling[gatts['satellite']][gatts['sensor'].split('_')[1]][b]
+                # cdata_radiance += dn_bias
+                cdata_radiance = cdata_radiance.astype(np.float32) * dn_scaling + dn_offset
 
                 if output_lt:
                     ## write toa radiance
