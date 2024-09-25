@@ -60,7 +60,7 @@ def l1_convert(inputfile, output = None, settings = {}, verbosity=5):
     for bundle in inputfile:
         tiles, metafile = ac.gf.bundle_test(bundle)
         meta = ac.gf.metadata(metafile)
-        if meta['SatelliteID'] not in  ['GF1', 'GF1D', 'GF6']: continue
+        if meta['SatelliteID'] not in  ['GF1', 'GF1B', 'GF1C', 'GF1D', 'GF6']: continue
         sensor = '{}_{}'.format(meta['SatelliteID'], meta['SensorID'])
 
         ## sensor settings
@@ -137,13 +137,13 @@ def l1_convert(inputfile, output = None, settings = {}, verbosity=5):
                 bands[b][k] = rsrd[k][b]
             bands[b]['f0'] = f0d[b]
 
-            if sensor in ['GF1_WFV1', 'GF1_WFV2', 'GF1_WFV3', 'GF1_WFV4', 'GF1D_PMS', 'GF6_PMS']:
+            if sensor in ['GF1_WFV1', 'GF1_WFV2', 'GF1_WFV3', 'GF1_WFV4', 'GF1B_PMS', 'GF1C_PMS', 'GF1D_PMS', 'GF6_PMS']:
                 bands[b]['index'] = int(bi)+1
             if sensor in ['GF6_WFV']:
                 bands[b]['index'] = int(b[1])
 
         ## order bands
-        if sensor in ['GF1D_PMS', 'GF6_PMS']:
+        if sensor in ['GF1B_PMS', 'GF1C_PMS', 'GF1D_PMS', 'GF6_PMS']:
             idx = np.argsort([bands[b]['wave_name'] for b in bands if b not in ['PAN']])
         if sensor in ['GF1_WFV1', 'GF1_WFV2', 'GF1_WFV3', 'GF1_WFV4', 'GF6_WFV']:
             idx = np.argsort([bands[b]['wave_name'] for b in bands])
@@ -285,7 +285,7 @@ def l1_convert(inputfile, output = None, settings = {}, verbosity=5):
                 zlat = interp2d(pcol, prow, plat)
 
                 ## pixel coordinate limits
-                if sensor in ['GF1_WFV1', 'GF1_WFV2', 'GF1_WFV3', 'GF1_WFV4','GF1D_PMS', 'GF6_PMS']:
+                if sensor in ['GF1_WFV1', 'GF1_WFV2', 'GF1_WFV3', 'GF1_WFV4', 'GF1B_PMS', 'GF1C_PMS', 'GF1D_PMS', 'GF6_PMS']:
                     x0, y0 = 0, 0
                     ns, nl = nx, ny
                 if sensor == 'GF6_WFV':
